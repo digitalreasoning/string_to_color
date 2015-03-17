@@ -40,6 +40,6 @@ function string_to_color(str) {
         return color;
     };
 
-    return shade(int_to_rgba(hash(str)), -10);
+    return shade(int_to_rgba(hash(str)), 40);
 
 }
